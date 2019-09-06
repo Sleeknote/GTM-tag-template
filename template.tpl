@@ -58,6 +58,67 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "access_globals",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "keys",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "key"
+                  },
+                  {
+                    "type": 1,
+                    "string": "read"
+                  },
+                  {
+                    "type": 1,
+                    "string": "write"
+                  },
+                  {
+                    "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "sleeknoteSiteData"
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
   }
 ]
 
@@ -66,9 +127,11 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 // Enter your template code here.
 const injectScript = require('injectScript');
+const createQueue = require('createQueue');
 
 const userId = data.UserID;
 const url = 'https://sleeknotecustomerscripts.sleeknote.com/'+userId+'.js';
+createQueue('sleeknoteSiteData');
 
 function onSuccess() {
   data.gtmOnSuccess();
@@ -83,4 +146,4 @@ injectScript(url, onSuccess, onFailure);
 
 ___NOTES___
 
-Created on 05/09/2019, 14:11:03
+Created on 06/09/2019, 11:32:42
