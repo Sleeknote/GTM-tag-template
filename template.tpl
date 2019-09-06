@@ -22,7 +22,7 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "displayName": "User ID",
+    "displayName": "Sleeknote Account ID",
     "simpleValueType": true,
     "name": "UserID",
     "type": "TEXT"
@@ -146,4 +146,4 @@ injectScript(url, onSuccess, onFailure);
 
 ___NOTES___
 
-Created on 06/09/2019, 11:32:42
+Created on 06/09/2019, 14:28:20
