@@ -1,0 +1,5 @@
+homepage: "sleeknote.com",​
+documentation: ​"help.sleeknote.com",​ 
+versions:
+  -​sha: 9ec59dfdf1d0c36faaea9b3b7870c79c670afff6
+  changeNotes: I​nitial release.
