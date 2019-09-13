@@ -128,9 +128,11 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 // Enter your template code here.
 const injectScript = require('injectScript');
 const createQueue = require('createQueue');
+const encodeUriComponent = require('encodeUriComponent');
 
 const userId = data.UserID;
-const url = 'https://sleeknotecustomerscripts.sleeknote.com/'+userId+'.js';
+const encodedUserId = encodeUriComponent(userId);
+const url = 'https://sleeknotecustomerscripts.sleeknote.com/'+ encodedUserId +'.js';
 createQueue('sleeknoteSiteData');
 
 function onSuccess() {
@@ -146,4 +148,4 @@ injectScript(url, onSuccess, onFailure);
 
 ___NOTES___
 
-Created on 06/09/2019, 14:28:20
+Created on 13/09/2019, 14:44:36
