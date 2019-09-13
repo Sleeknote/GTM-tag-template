@@ -22,9 +22,19 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
+    "help": "This is your account ID",
+    "alwaysInSummary": true,
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      },
+      {
+        "type": "POSITIVE_NUMBER"
+      }
+    ],
     "displayName": "Sleeknote Account ID",
     "simpleValueType": true,
-    "name": "UserID",
+    "name": "userId",
     "type": "TEXT"
   }
 ]
@@ -130,7 +140,7 @@ const injectScript = require('injectScript');
 const createQueue = require('createQueue');
 const encodeUriComponent = require('encodeUriComponent');
 
-const userId = data.UserID;
+const userId = data.userId;
 const encodedUserId = encodeUriComponent(userId);
 const url = 'https://sleeknotecustomerscripts.sleeknote.com/'+ encodedUserId +'.js';
 createQueue('sleeknoteSiteData');
@@ -148,4 +158,4 @@ injectScript(url, onSuccess, onFailure);
 
 ___NOTES___
 
-Created on 13/09/2019, 14:44:36
+Created on 13/09/2019, 16:59:18
