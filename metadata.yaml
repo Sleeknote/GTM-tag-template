@@ -1,5 +1,5 @@
 homepage: "sleeknote.com",​
 documentation: ​"help.sleeknote.com",​ 
 versions:
-  -​sha: 58ee12637bcb4e2e796bd7935508b94e1b3dbd79
-  changeNotes: Correct texts and icon.
+  -​sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
+  changeNotes: added categories and terms of service
