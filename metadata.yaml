@@ -1,5 +1,5 @@
-homepage: "sleeknote.com",​
-documentation: ​"help.sleeknote.com",​ 
+homepage: "sleeknote.com"
+documentation: ​"help.sleeknote.com"
 versions:
-  -​sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
-  changeNotes: added categories and terms of service
+  -​ sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
+    changeNotes: added categories and terms of service
