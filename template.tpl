@@ -1,7 +1,7 @@
 ﻿___INFO___
 
 {
-  "displayName": "Sleeknote, all features + advanced concent mode",
+  "displayName": "Sleeknote",
   "description": "With Sleeknote, you can engage your visitors with intelligent on-site messages. Learn more: https://sleeknote.com/",
   "categories": [
     "LEAD_GENERATION",
