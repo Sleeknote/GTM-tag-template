@@ -1,9 +1,9 @@
-homepage: "sleeknote.com"
-documentation: ​"help.sleeknote.com"
+homepage: https://sleeknote.com
+documentation: https://help.sleeknote.com
 versions:
-#Latest version
-  -​ sha: 9a68f2710df44c9b39041bf860ea35365933d8f5
-    changeNotes: Updated tag to be compatible with Consent mode, added ability to push to SiteData, added ability to fire goal events, added ability to set SNSubscribed cookie, added ability to trigger campaign with events
-#Older versions
--​ sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
+  - sha: 9a68f2710df44c9b39041bf860ea35365933d8f5
+    changeNotes: Updated tag to be compatible with Consent mode, added ability to
+      push to SiteData, added ability to fire goal events, added ability to set
+      SNSubscribed cookie, added ability to trigger campaign with events
+  - sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
     changeNotes: added categories and terms of service
