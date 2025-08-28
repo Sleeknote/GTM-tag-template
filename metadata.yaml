@@ -2,9 +2,11 @@ homepage: "https://sleeknote.com"
 documentation: "https://help.sleeknote.com"
 versions:
   # Latest version
+  - sha: 40215e8a2636324451eb08caece7bb58e4478d45
+    changeNotes: Categoies updated from CONVERSION_TRACKING to CONVERSIONS
+  # Older versions
   - sha: 9a68f2710df44c9b39041bf860ea35365933d8f5
     changeNotes: Template name updated
-  # Older versions
   - sha: c435205a5b63d19f4b9da6078038c34d45182a8e
     changeNotes: |2
       Updated tag to be compatible with Consent mode
@@ -19,7 +21,7 @@ versions:
   - sha: 9ec59dfdf1d0c36faaea9b3b7870c79c670afff6
     changeNotes: Field validation
   - sha: 9fac4ab7c230b857d9d46d6e07188b7bffba21d2
-    changeNotes: Encocing of url parameters.
+    changeNotes: Endocing of url parameters.
   - sha: c70133acc5804cd20ba88c8692b7f226f1d6aecd
     changeNotes: Updated variable name for Sleeknote Account ID.
   - sha: 065ed7c05ae08afe3ee7fc658ca29f3d250a2155
