@@ -1,9 +1,28 @@
-homepage: https://sleeknote.com
-documentation: https://help.sleeknote.com
+homepage: "https://sleeknote.com"
+documentation: "https://help.sleeknote.com"
 versions:
+  # Latest version
   - sha: 9a68f2710df44c9b39041bf860ea35365933d8f5
-    changeNotes: Updated tag to be compatible with Consent mode, added ability to
-      push to SiteData, added ability to fire goal events, added ability to set
-      SNSubscribed cookie, added ability to trigger campaign with events
+    changeNotes: Template name updated
+  # Older versions
+  - sha: c435205a5b63d19f4b9da6078038c34d45182a8e
+    changeNotes: |2
+      Updated tag to be compatible with Consent mode
+      Added ability to push to SiteData
+      Added ability to fire goal events
+      Added ability to set SNSubscribed cookie
+      Added ability to trigger campaigns with events
   - sha: d6cf8cc2d0bfb85f2c714fd93cfe3ec8e1166c7c
-    changeNotes: added categories and terms of service
+    changeNotes: Added categories and terms of service.
+  - sha: 58ee12637bcb4e2e796bd7935508b94e1b3dbd79
+    changeNotes: Correct text and icons.
+  - sha: 9ec59dfdf1d0c36faaea9b3b7870c79c670afff6
+    changeNotes: Field validation
+  - sha: 9fac4ab7c230b857d9d46d6e07188b7bffba21d2
+    changeNotes: Encocing of url parameters.
+  - sha: c70133acc5804cd20ba88c8692b7f226f1d6aecd
+    changeNotes: Updated variable name for Sleeknote Account ID.
+  - sha: 065ed7c05ae08afe3ee7fc658ca29f3d250a2155
+    changeNotes: Included sitedata variable.
+  - sha: b56a318fc1a7aba16629f5b954e249c20025bbaf
+    changeNotes: Initial release.
