@@ -8,7 +8,7 @@
     "EMAIL_MARKETING",
     "PERSONALIZATION",
     "MARKETING",
-    "CONVERSION_TRACKING"
+    "CONVERSIONS"
   ],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
